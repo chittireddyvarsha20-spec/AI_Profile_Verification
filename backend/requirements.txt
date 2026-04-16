@@ -4,3 +4,7 @@ requests
 beautifulsoup4
 python-dotenv
 pydantic
+joblib
+scikit-learn
+pandas
+numpy
