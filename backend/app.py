@@ -159,9 +159,8 @@ def verify(data: dict):
         return {
             "prediction": int(prediction),
             "confidence": float(round(confidence, 2)),
-            "links": links[:5],
+            "sources": links[:5],
             "analysis": analysis
-        }
-
+}
     except Exception as e:
         return {"error": str(e)}
