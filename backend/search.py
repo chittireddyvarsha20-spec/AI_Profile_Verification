@@ -1,6 +1,5 @@
 import requests
 import os
-import os
 SERP_API_KEY = os.getenv("SERPAPI_API_KEY")
 def search_web(query: str) -> list[str]:
     url = "https://serpapi.com/search"
